@@ -21,12 +21,19 @@ input{
     width: 500px;
 }
 
+.item{
+    display: flex;
+    justify-content:space-around;
+    
+}
+
 button.Add{
     background-color: green;
     padding: 10px;
     border: 0.5px solid rgb(3, 3, 3);
     border-radius: 50px;
     width : 80px;
+    cursor: pointer;
 }
 
 button.remove{
@@ -35,4 +42,5 @@ button.remove{
     border: 0.5px solid rgb(250, 8, 4);
     border-radius: 50px;
     width : 80px;
+    cursor: pointer;
 }
