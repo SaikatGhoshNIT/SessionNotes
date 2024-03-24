@@ -18,9 +18,9 @@ function addSession(){
 
     list.appendChild(item)
 
-    // note.value=""
+    note.value=""
 
-    // removeButton.addEventListener("click", ()=>{
-    //     list.removeChild(item)
-    // })
+    removeButton.addEventListener("click", ()=>{
+        list.removeChild(item)
+    })
 }
